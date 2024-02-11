@@ -1,0 +1,329 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.container_1 {
+	background: url(food.avif);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 46.35vw;
+}
+
+.centre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	margin-top: 16vw;
+	width: 23vw;
+	margin-left: 4vw;
+	position: relative;
+
+
+}
+
+.navbar ul {
+	margin-right: 135px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: flex-end;
+
+
+}
+
+.navbar ul li {
+
+	margin: 20px;
+	font-size: 1.6px;
+	font-size: larger;
+	color: aliceblue;
+	list-style-type: none;
+
+
+}
+
+.navbar ul li a {
+
+	margin: 10px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: aliceblue;
+	text-decoration: none;
+
+	font-weight: 300;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container_4 {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer {
+	background-color: #24262b;
+	padding: 70px 0;
+	width: 100%;
+	/* margin-right: 0; */
+}
+
+.footer-col {
+	width: 25%;
+
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #ffffff;
+	/* text-transform: capitalize; */
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before {
+
+	position: absolute;
+	left: 0;
+	/* bottom: -10px; */
+
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	/* display: block; */
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+		margin: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+
+}
+
+@media(max-width:600px) {
+	.container_1 {
+		width: 100%;
+	}
+}
+
+
+.box {
+	width: 380px;
+	background-color: rgb(246, 237, 237);
+
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 40;
+	border: solid rgb(225, 217, 217) 1px;
+	position: relative;
+	align-items: center;
+	text-align: left;
+	justify-content: center;
+	margin-top: 100;
+
+
+}
+
+.box a {
+	color: #483e3e;
+	margin-top: 80px;
+	justify-content: center;
+	text-decoration: none;
+	font-size: larger;
+	font-style: oblique;
+	font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.box:hover {
+	box-shadow: 5px 5px 5px #888888;
+	background-color: rgb(36, 43, 43);
+	transform: scale(1, 1.111);
+	transition: 0.4s;
+	
+
+
+}
+
+.box a:hover {
+
+	color: rgb(255, 255, 255);
+
+
+}
+
+.navbar ul li :hover {
+
+	color: rgb(236, 233, 233);
+	box-shadow: #888888;
+
+
+
+}
+
+.Find {
+	color: white;
+	text-align: center;
+	margin: 70px;
+	font-size: 30px;
+
+
+}
+
+@media(max-width:600px) {
+	.Find {
+		font-size: small;
+		margin-top: 10px;
+	}
+}
+
+@media(max-width:800px) {
+	.Find {
+		font-size: small;
+		margin-top: 40px;
+	}
+}
+
+@media(max-width:1060px) {
+	.Find {
+		font-size: 23px;
+		margin-top: 40px;
+	}
+}
+
+@media(max-width:740px) {
+	.logo {
+
+		margin-top: 50px;
+	}
+}
+
+
+.middle {
+	background-color: rgb(203, 199, 199);
+	padding: 40px;
+}
+
+@media(max-width:490px) {
+	.box {
+		padding: 10px;
+		width: 300px;
+		text-align: center;
+		margin-left: 35px;
+
+	}
+
+}
+
+@media(max-width:600px) {
+	.navbar {
+		width: 100%;
+	}
+
+}
+
+@media(max-width:600px) {
+	.navbar ul li {
+		font-size: 1rem;
+		margin-left: 30%;
+		margin: 20px;
+	}
+}
+
+@media(max-width:600px) {
+	.centre {
+		width: 100%;
+	}
+
+}
+
+@media(max-width:600px) {
+	.logo {
+		position: relative;
+	}
+
+}
+
+@media(max-width:600px) {
+	.container_1 {
+		height: 50.35vw;
+
+	}
+
+}
+
+@media(max-width:600px) {
+	.middle {
+		margin: 4px;
+		height: 20%;
+
+	}
+
+}
